@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Circle fx:id="Head" layoutX="101.0" layoutY="186.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Body1" fill="#11ef50" layoutX="179.0" layoutY="186.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Body2" fill="#11ef50" layoutX="227.0" layoutY="186.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Body3" fill="#11ef50" layoutX="290.0" layoutY="186.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Body4" fill="#11ef50" layoutX="365.0" layoutY="186.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Tail" fill="#11ef50" layoutX="430.0" layoutY="186.0" onMouseDragged="#mouseDragged" onMousePressed="#mousePressed" radius="54.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
